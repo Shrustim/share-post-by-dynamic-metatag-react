@@ -27,7 +27,7 @@ app.get('/about', function(request, response) {
     }
     data = data.replace(/\$OG_TITLE/g, 'About Page');
     data = data.replace(/\$OG_DESCRIPTION/g, "About page description");
-    result = data.replace(/\$OG_IMAGE/g, 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg');
+    result = data.replace(/\$OG_IMAGE/g, 'https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg');
     response.send(result);
   });
 });
@@ -41,7 +41,7 @@ app.get('/contact', function(request, response) {
     }
     data = data.replace(/\$OG_TITLE/g, 'Contact Page');
     data = data.replace(/\$OG_DESCRIPTION/g, "Contact page description");
-    result = data.replace(/\$OG_IMAGE/g, 'https://i.imgur.com/V7irMl8.png');
+    result = data.replace(/\$OG_IMAGE/g, 'https://rukminim1.flixcart.com/image/416/416/poster/t/c/s/save-trees-save-nature-psu360002939-small-original-imaekkpws5uvrqyy.jpeg?q=70');
     response.send(result);
   });
 });
