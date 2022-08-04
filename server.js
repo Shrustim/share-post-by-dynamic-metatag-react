@@ -13,7 +13,7 @@ app.get('/', function(request, response) {
     }
     data = data.replace(/\$OG_TITLE/g, 'Home Page');
     data = data.replace(/\$OG_DESCRIPTION/g, "Home page description");
-    result = data.replace(/\$OG_IMAGE/g, 'https://i.imgur.com/V7irMl8.png');
+    result = data.replace(/\$OG_IMAGE/g, 'https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg');
     response.send(result);
   });
 });
@@ -27,7 +27,7 @@ app.get('/about', function(request, response) {
     }
     data = data.replace(/\$OG_TITLE/g, 'About Page');
     data = data.replace(/\$OG_DESCRIPTION/g, "About page description");
-    result = data.replace(/\$OG_IMAGE/g, 'https://i.imgur.com/V7irMl8.png');
+    result = data.replace(/\$OG_IMAGE/g, 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg');
     response.send(result);
   });
 });
